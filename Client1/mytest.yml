@@ -1,0 +1,14 @@
+Spring:
+   profiles:
+   active:
+   - dev
+---
+Spring:
+  profiles: dev
+  application:
+    name: client1-dev
+---
+Spring:
+  profiles: test
+  application:
+    name: client1-test
