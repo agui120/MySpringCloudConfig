@@ -4,11 +4,11 @@ Spring:
    - dev
 ---
 Spring:
-  profiles:dev
+  profiles: dev
   application:
     name: client1-dev
 ---
 Spring:
-  profiles:test
+  profiles: test
   application:
     name: client1-test
